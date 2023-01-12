@@ -4,7 +4,7 @@ import GradientBtn from "./GradientBtn";
 const ContactForn = () => {
   return (
     <div className="p-4 text-left">
-      <form action="">
+      <form method="POST" action="https://getform.io/f/9ec37fae-423b-4fb5-bf5c-af817fa861c1">
         <div className="grid md:grid-cols-2 gap-4 w-full py-2 ">
           <div className="flex flex-col col-span-2 md:col-span-1">
             <label className="capitalize text-sm py-2 font-light">name</label>
@@ -38,7 +38,7 @@ const ContactForn = () => {
               message
             </label>
             <textarea
-              type="message"
+              type="text"
               rows="10"
               className="border-2 text-gray-900 rounded-lg p-3 focus:outline-none"
             />
